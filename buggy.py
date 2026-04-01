@@ -31,7 +31,7 @@ def process_data(data):
     return result
 
 def read_file(filename):
-    f = open(filename, "r")   # ❌ file not closed
+    f = open(filename, "r")   # ❌
     data = f.read()
     return data
 
